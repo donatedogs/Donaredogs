@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donate for Dogs</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: #fff8f0;
+    color: #333;
+    text-align: center;
+  }
+  header {
+    background: #ff6b6b;
+    color: white;
+    padding: 40px 20px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  .container {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  .story {
+    margin-bottom: 30px;
+  }
+  .story img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .donate-btn {
+    background: #ff6b6b;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .donate-btn:hover {
+    background: #ff3b3b;
+  }
+  footer {
+    background: #f4f4f4;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Help Dogs in Need</h1>
+  <p>Donate today to provide food, medical care, and shelter for stray dogs.</p>
+</header>
+
+<div class="container">
+  <div class="story">
+    <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=800&q=80" alt="Dogs in need">
+    <p>Over 500 dogs in our city are homeless. Every donation saves a life. Join us in giving them the care they deserve!</p>
+  </div>
+
+  <!-- PayPal donation button linked to your email -->
+  <form action="https://www.paypal.com/donate" method="post" target="_blank">
+    <input type="hidden" name="business" value="Youssefrharrabi44@gmail.com">
+    <input type="hidden" name="currency_code" value="USD">
+    <button type="submit" class="donate-btn">Donate Now</button>
+  </form>
+</div>
+
+<footer>
+  &copy; 2026 Support Dogs in Need. Follow us on social media for more updates.
+</footer>
+
+</body>
+</html>
