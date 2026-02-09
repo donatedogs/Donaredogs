@@ -3,88 +3,101 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Donate for Dogs</title>
+<title>Save Homeless Dogs</title>
 <style>
   body {
-    font-family: Arial, sans-serif;
-    margin: 0; padding: 0;
-    background: #fff8f0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffaf0;
     color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: #ff5e5e;
+    color: white;
+    padding: 60px 20px;
     text-align: center;
   }
-  header {
-    background: #ff6b6b;
-    color: white;
-    padding: 40px 20px;
-  }
+
   header h1 {
-    margin: 0;
-    font-size: 2em;
+    font-size: 2.5em;
+    margin-bottom: 10px;
   }
+
   header p {
-    font-size: 1.2em;
-    margin-top: 10px;
+    font-size: 1.3em;
   }
+
   .container {
-    padding: 40px 20px;
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
+    padding: 40px 20px;
+    text-align: center;
   }
-  .story {
-    margin-bottom: 30px;
-  }
+
   .story img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 12px;
+    margin-bottom: 20px;
   }
-  .donate-btn {
-    background: #ff6b6b;
-    color: white;
-    padding: 15px 30px;
+
+  .story p {
     font-size: 1.2em;
+  }
+
+  .donate-btn {
+    background-color: #ff5e5e;
+    color: white;
+    font-size: 1.3em;
+    padding: 18px 40px;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
-    margin-top: 20px;
     text-decoration: none;
-    display: inline-block;
   }
+
   .donate-btn:hover {
-    background: #ff3b3b;
+    background-color: #ff3b3b;
   }
+
   footer {
-    background: #f4f4f4;
+    background-color: #f4f4f4;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 0.9em;
+    color: #555;
+    text-align: center;
+  }
+
+  .highlight {
+    color: #ff5e5e;
+    font-weight: bold;
   }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>Help Dogs in Need</h1>
-  <p>Donate today to provide food, medical care, and shelter for stray dogs.</p>
+  <h1>Save Homeless Dogs 🐶</h1>
+  <p>This little Chihuahua needs your help. Your donation can change a life!</p>
 </header>
 
 <div class="container">
+
   <div class="story">
-    <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=800&q=80" alt="Dogs in need">
-    <p>Over 500 dogs in our city are homeless. Every donation saves a life. Join us in giving them the care they deserve!</p>
+    <img src="https://cdn.pixabay.com/photo/2016/02/13/12/26/chihuahua-1194086_1280.jpg" alt="Chihuahua dog">
+    <p>This Chihuahua is homeless and in need of care. <span class="highlight">Your donation will provide food, shelter, and love.</span> Every contribution saves lives.</p>
   </div>
 
-  <!-- PayPal donation button linked to your email -->
-  <form action="https://www.paypal.com/donate" method="post" target="_blank">
-    <input type="hidden" name="business" value="https://paypal.me/soonbest">
-    <input type="hidden" name="currency_code" value="USD">
-    <button type="submit" class="donate-btn">Donate Now</button>
-  </form>
+  <!-- PayPal.me donation button -->
+  <a href="https://paypal.me/soonbest" target="_blank" class="donate-btn">Donate Now ❤️</a>
+
 </div>
 
 <footer>
-  &copy; 2026 Support Dogs in Need. Follow us on social media for more updates.
+  &copy; 2026 Help Homeless Dogs. Thank you for caring.
 </footer>
 
 </body>
-
 </html>
